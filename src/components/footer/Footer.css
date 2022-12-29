@@ -1,0 +1,130 @@
+footer{
+    height: 950px;
+    /* background-color: var(--footer-blue); */
+    background: radial-gradient(ellipse at top, rgba(7, 50, 95, 1), transparent), radial-gradient(ellipse at bottom, rgba(3, 27, 52, 1), transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-top .hero-primary-title{
+    margin-bottom: 60px;
+}
+
+.footer-center{
+    text-align: center;
+}
+
+.footer-contact-us-btn{
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 16px 28px;
+}
+
+.footer-contact-us-btn:hover{
+    background-color: white;
+    color: var(--footer-blue);
+    transition: var(--smooth);
+}
+
+.footer-line{
+    height: 1px;
+    background-color: white;
+    margin: 70px 0;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.footer-bottom-left .logo img{
+    width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-bottom-right{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-right div ul li{
+    padding: 10px 0;
+}
+
+.footer-links ul li a{
+    display: block !important;
+}
+
+.footer-bottom-right div ul li a{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+.footer-bottom-right div ul li a p,
+.footer-bottom-right div ul li a svg{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-right div ul li a svg{
+    margin-right: 10px;
+}
+
+.footer-bottom-right div ul li:hover{
+    opacity: .5;
+    transition: var(--smooth);
+}
+
+.footer-bottom-right div:not(:last-child){
+    margin-right: 30px;
+}
+
+.footer-bottom-right div{
+    width: 240px;
+}
+
+.footer-bottom{
+    display: block;
+    text-align: left;
+}
+
+.link-title{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.link-title:after {
+    content: "";
+    background: white;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 20%;
+    height: 6px;
+}
+
+.copyright-text{
+    margin-top: 90px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1056px){
+    .footer-content{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    .footer-bottom-right div:not(:last-child){
+        margin-right: 10px;
+    }
+    /* .footer-bottom-right div:not(:last-child){
+        margin-right: 0px;
+    } */
+    .footer-bottom-right div{
+        width: 220px;
+    }
+}

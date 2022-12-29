@@ -1,0 +1,94 @@
+.collaborator-section{
+    /* height: 1130px; */
+    margin: 50px 0;
+}
+
+.hero-primary-title{
+    position: relative;
+}
+
+.underline-text:after{
+    content: "";
+    position: absolute;
+    background: var(--pink-yellow-gradient);
+    height: 6px;
+    width: 70%;
+    left: 0;
+    bottom: -10px;
+}
+
+.perzim-intro{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    height: inherit;
+    margin: 50px 0;
+}
+
+.perzim-intro-content{
+    margin-left: 50px;
+}
+
+.medium-white-title{
+    font-size: 36px;
+    font-weight: bold;
+    padding: 40px 0;
+}
+
+.medium-blue-text{
+    color: var(--content-blue);
+    font-size: 16px;
+}
+
+.about-perzim{
+    /* background-color: var(--blue-color); */
+    background: radial-gradient(ellipse at top, rgb(17, 83, 155), transparent), radial-gradient(ellipse at bottom, var(--blue-color), transparent);
+    padding: 40px;
+}
+
+.about-content ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-content ul li{
+    padding: 30px 20px;
+}
+
+.about-content ul li span{
+    position: relative;
+}
+
+.about-content ul li p{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.small-white-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    background: var(--pink-yellow-gradient);
+    height: 4px;
+    width: 30%;
+    left: 0;
+    bottom: 30px;
+}
+
+.gradient-btn{
+    background: var(--pink-yellow-gradient);
+    padding: 16px 28px;
+    border-radius: 20px;
+    margin-left: 40px;
+    transition: var(--smooth);
+}
+
+.gradient-btn:hover{
+    background: var(--yellow-pink-gradient);
+}
+
+.visit-perzim-section{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

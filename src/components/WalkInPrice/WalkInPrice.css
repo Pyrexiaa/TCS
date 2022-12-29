@@ -1,0 +1,20 @@
+.WalkInAndOperation{
+    margin-bottom: 40px;
+}
+
+.visitor{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.operationHours-content {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.operationHours-content p{
+    font-size: 20px;
+}

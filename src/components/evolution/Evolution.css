@@ -1,0 +1,129 @@
+.evolution-section {
+    margin: 50px 0;
+}
+
+.hero-primary-title {
+    position: relative;
+    font-size: 40px;
+}
+
+.underline-text:after {
+    content: "";
+    position: absolute;
+    background: var(--pink-yellow-gradient);
+    height: 6px;
+    width: 70%;
+    left: 0;
+    bottom: -10px;
+}
+
+.evolution-intro {
+    position: relative;
+    padding: 30px 0;
+    color: var(--content-orange);
+    font-size: 20px;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background: var(--pink-yellow-gradient);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+}
+
+/* Container around content */
+.container {
+    padding: 20px 10px;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    background-color: white;
+    top: 30%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+}
+
+.content-text{
+    padding: 10px 0;
+    color: var(--content-blue);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    padding: 0 20px;
+    width: 80%;
+}
+
+.content span{
+    position: relative;
+}
+
+.small-white-title:before{
+    content: "";
+    position: absolute;
+    background: var(--pink-yellow-gradient);
+    height: 4px;
+    width: 30%;
+    left: 0;
+    bottom: 30px;
+}

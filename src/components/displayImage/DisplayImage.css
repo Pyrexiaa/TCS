@@ -1,0 +1,37 @@
+.about-display-content ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-display-content{
+    padding: 10px 20px;
+}
+
+.about-display-content ul li {
+    padding: 30px 20px;
+}
+
+.about-display-content ul li span {
+    position: relative;
+}
+
+.about-display-content ul li p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.small-white-text:before {
+    content: "";
+    position: absolute;
+    background: var(--pink-yellow-gradient);
+    height: 4px;
+    width: 20%;
+    left: 0;
+    bottom: 30px;
+}
+
+.visiting-image img{
+    width: 95%;
+}

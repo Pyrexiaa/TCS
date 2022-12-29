@@ -1,0 +1,78 @@
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    /* position: fixed; */
+    width: 100%;
+}
+
+.nav-center{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 46px;
+    padding-right: 20px;
+}
+
+.logo p{
+    font-family: 'Candara';
+    letter-spacing: 4px;
+}
+
+.nav-links{
+    width: 50%;
+    height: 100px;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links li{
+    position: relative;
+}
+
+.links li:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 6px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: var(--smooth);
+}
+
+.links li:hover:after{
+    width: 70%;
+}
+
+.nav-center div{
+    display: flex;
+    align-items: center;
+}
+
+.orange-btn{
+    padding: 16px 0;
+}
+
+.orange-btn:hover{
+    opacity: .7;
+    transition: var(--smooth);
+}
+
+.orange-btn a{
+    padding: 16px 28px;
+    background-color: var(--orange-color);
+}
+
+.orange-btn a svg{
+    margin-right: 10px;
+}
