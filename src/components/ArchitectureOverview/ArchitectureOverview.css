@@ -1,0 +1,125 @@
+.selection-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+  
+.main-selection {
+    flex: 0.75;
+    margin-right: 2rem;
+}
+  
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.selection-image {
+    width: 100%;
+    height: 100%;
+}
+  
+.selection-image img {
+    width: 100%;
+    height: 100%;
+}
+  
+.selection-content {
+    background: #042C54;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 3.5rem;
+    height: 100%;
+}
+  
+.selection-content p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+}
+  
+.selection-content h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    letter-spacing: 1.2px;
+}
+  
+.sub-selection {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 2rem;
+    /* align-content: space-evenly; */
+}
+  
+.sub-selection .selection-image {
+    width: 100%;
+    height: 50%;
+}
+  
+.sub-selection .selection-image img {
+    width: 100%;
+    height: 100%;
+}
+  
+.sub-selection .selection-content {
+    background: #042C54;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    height: 50%;
+}
+  
+.sub-selection .selection-content p {
+    font-size: 1rem;
+}
+  
+.sub-selection .selection-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+  
+.sub-selection .white-btn {
+    width: 120px;
+    height: 40px;
+}
+  
+.sub-selection .white-btn a {
+    padding: 0.59rem 1.399rem;
+    font-size: 15px;
+}
+  
+.white-btn {
+    background: white;
+    width: 9.375rem;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+}
+  
+.white-btn a {
+    padding: 1rem 1.9rem;
+    color: #042C54;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+  
+.white-btn:hover {
+    opacity: .7;
+    transition: var(--smooth);
+}
+  
+.hero-primary-title.architecture-title {
+    font-size: 45px;
+}
+  
+.hero-primary-title.architecture-title.right {
+    float: right;
+}

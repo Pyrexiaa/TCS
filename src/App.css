@@ -32,3 +32,24 @@ body{
   font-family: 'Manrope';
   font-size: 18px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body-section{
+  margin: 50px 0;
+}
+
+.underline {
+  content: "";
+  background: var(--pink-yellow-gradient);
+  height: 6px;
+  width: 15%;
+  left: 0;
+}
+
+.hero-primary-title.title-text {
+  margin-top: 20px;
+  font-size: 34px;
+}

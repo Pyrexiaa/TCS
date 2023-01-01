@@ -15,10 +15,10 @@ const Navbar = () => {
                 <div className="nav-links">
                     <ul className="links">
                         <li><a href="/">Intro</a></li>
-                        <li><a href="#architecture.html">Architecture</a></li>
-                        <li><a href="#museum.html">Museum</a></li>
-                        <li><a href="#gallery.html">Gallery</a></li>
-                        <li><a href="#our-team.html">Our Team</a></li>
+                        <li><a href="/aboutArchitecture">Architecture</a></li>
+                        <li><a href="/aboutMuseum">Museum</a></li>
+                        <li><a href="/aboutGallery">Gallery</a></li>
+                        <li><a href="/aboutOurTeam">Our Team</a></li>
                     </ul>
                 </div>
                 <div className="orange-btn contact-btn">

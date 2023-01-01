@@ -1,23 +1,25 @@
 import './App.css';
-import Navbar from './components/navbar/navbar';
 import FirstPage from './components/FirstPage/FirstPage';
 import AboutMuseum from './components/AboutMuseumPage/AboutMuseum';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Architecture from './components/Architecture/Architecture';
+import Gallery from './components/Gallery/Gallery';
+import OurTeam from './components/OurTeam/OurTeam';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<FirstPage />} />
-          <Route path="/aboutMuseum" element={<AboutMuseum />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path='/' element={<FirstPage />} />
+        <Route path="/aboutMuseum" element={<AboutMuseum />} />
+        <Route path="/aboutArchitecture" element={<Architecture />}/>
+        <Route path='/aboutGallery' element={<Gallery />}/>
+        <Route path='/aboutOurTeam' element={<OurTeam />}/>
+      </Routes>
 
     </>
 
-  )
+  );
 }
 
 export default App;

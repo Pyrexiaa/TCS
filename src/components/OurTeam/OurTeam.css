@@ -1,0 +1,91 @@
+.designer-title {
+    font-size: 40px;
+    color: #81AFDD;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+  
+.designer-name {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.5px;
+}
+  
+/*.group-photo {
+    display: flex;
+    margin: 3rem auto;
+}*/
+  
+.team-members {
+    margin: 3rem auto;
+    text-align: center;
+}
+  
+.members-wrapper span img {
+    background: var(--border-gradient) padding-box,
+      var(--border-gradient) border-box;
+    border-radius: 50%;
+    border: 10px solid transparent;
+}
+  
+.members-wrapper span {
+    margin-left: -50px;
+}
+  
+.members-wrapper span:hover {
+    /* margin-left: 0;
+      padding: 0 60px 0 10px;
+      transition: var(--smooth); */
+}
+  
+.hovered {
+    margin-left: 0 !important;
+    padding: 0 60px 0 10px !important;
+    transition: var(--smooth) !important;
+}
+  
+.profile-section {
+    margin-top: 8rem;
+}
+  
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8rem;
+    margin: 5rem 0;
+}
+  
+.profile {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.profile-picture {
+    border-radius: 50%;
+    border: 10px solid transparent;
+    background: linear-gradient(#ae67fa, #f1966e) border-box;
+}
+  
+.profile-name {
+    margin-top: 1.5rem;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+  
+.profile-description {
+    margin: auto auto auto 1rem;
+}
+
+.medium-blue-text-ourteam {
+    margin-top: 10px;
+    color: #71E5FF
+}

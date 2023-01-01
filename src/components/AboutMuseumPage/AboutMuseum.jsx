@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutMuseum.css'
-import SecondPageHeader from '../secondPageHeader/SecondPageHeader'
+import SecondPageHeader from '../MuseumHeader/SecondPageHeader'
 import Footer from '../footer/Footer'
 import VisitingMuseum from '../VisitingMuseum/VisitingMuseum'
 import DisplayImage from '../displayImage/DisplayImage'

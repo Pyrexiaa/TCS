@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from '../firstPageHeader/header'
+import { Header } from '../IntroHeader/header'
 import Collaborator from '../collaborator/Collaborator'
 import Evolution from '../evolution/Evolution'
 import Footer from '../footer/Footer'

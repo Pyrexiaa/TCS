@@ -1,0 +1,43 @@
+.section-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.hero{
+    height: 580px;
+}
+
+.content-wrapper{
+    width: 80%;
+}
+
+.hero-primary-title{
+    font-size: 62px;
+    font-weight: bolder;
+    background: var(--pink-yellow-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.hero-secondary-title{
+    margin: 54px 0;
+    max-width: 60%;
+}
+
+.content-wrapper p span, .content-wrapper h1 span{
+    display: block;
+    /* position: relative; */
+}
+
+.ourTeamPage-hero-section{
+    height: 840px;
+    /* background: -webkit-radial-gradient(right 60%,red,yellow,green); */
+    /* background: radial-gradient(at left 50%,var(--blue-color), rgba(4, 12, 24, .9),rgba(4, 12, 24, 0)); */
+    /* background-image: radial-gradient(at left 50%,rgba(4, 12, 24, .9),rgba(4, 12, 24, 0)), url('assets/intro-wallpaper.png'); */
+    background-image: linear-gradient(to right, rgba(4, 43, 85, .9), rgba(4, 43, 85, .3)), url('../../assets/ourTeamBackground.png'); 
+    background-size: cover;
+}
