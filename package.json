@@ -1,7 +1,6 @@
 {
   "name": "tourvillage",
   "version": "0.1.0",
-  "homepage": "https://pyrexiaa.github.io/tcs",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -17,7 +16,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && echo '/* /index.html  200' | cat >build/_redirects ",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
