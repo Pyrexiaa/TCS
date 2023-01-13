@@ -35,7 +35,7 @@ const Architecture = () => {
                                         </div>
                                         <div className="architecture-description">
                                             <div className="underline"></div>
-                                            <p>It is used as an emergency route for the occupants of the house or as a space to drain the water for bathing the body in the event of the death of a family member.</p>Name
+                                            <p>It is used as an emergency route for the occupants of the house or as a space to drain the water for bathing the body in the event of the death of a family member.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@ const Architecture = () => {
                                     <div className="architecture-content left">
                                         <div className="architecture-description">
                                             <div className="underline long"></div>
-                                            <p>The hall is used as a place to chat and is considered an open space because events related to customs and religion, such as weddings, studying, teaching religious knowledge, and reading the Quran, are always held in this space.
+                                            <p>The foyer is used as a place to chat and is considered an open space because events related to customs and religion, such as weddings, studying, teaching religious knowledge, and reading the Quran, are always held in this space.
                                             </p>
                                         </div>
                                         <div className="architecture-description">

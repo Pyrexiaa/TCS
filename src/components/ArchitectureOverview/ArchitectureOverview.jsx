@@ -27,7 +27,7 @@ const ArchitectureOverview = () => {
                     <div className="sub-selection">
                         <div className="sub-container">
                             <div className="selection-image">
-                                <img src={theWall} alt="The Wall" />
+                                <img src={theWallbtm} alt="The Wall" />
                             </div>
                             <div className="selection-content">
                                 <p>Architecture 02
@@ -40,7 +40,7 @@ const ArchitectureOverview = () => {
                         </div>
                         <div className="sub-container">
                             <div className="selection-image">
-                                <img src={thePillar} alt="The Pillar" />
+                                <img src={theStilts} alt="The Pillar" />
                             </div>
                             <div className="selection-content">
                                 <p>Architecture 03
@@ -53,7 +53,7 @@ const ArchitectureOverview = () => {
                         </div>
                         <div className="sub-container">
                             <div className="selection-image">
-                                <img src={theFoyer} alt="The Foyer" />
+                                <img src={theFoyerbtm} alt="The Foyer" />
                             </div>
                             <div class="selection-content">
                                 <p>Architecture 04
@@ -66,7 +66,7 @@ const ArchitectureOverview = () => {
                         </div>
                         <div className="sub-container">
                             <div className="selection-image">
-                                <img src={theStaircase} alt="The Staircase." />
+                                <img src={theStaircasebtm} alt="The Staircase." />
                             </div>
                             <div className="selection-content">
                                 <p>Architecture 05

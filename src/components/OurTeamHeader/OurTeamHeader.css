@@ -38,6 +38,6 @@
     /* background: -webkit-radial-gradient(right 60%,red,yellow,green); */
     /* background: radial-gradient(at left 50%,var(--blue-color), rgba(4, 12, 24, .9),rgba(4, 12, 24, 0)); */
     /* background-image: radial-gradient(at left 50%,rgba(4, 12, 24, .9),rgba(4, 12, 24, 0)), url('assets/intro-wallpaper.png'); */
-    background-image: linear-gradient(to right, rgba(4, 43, 85, .9), rgba(4, 43, 85, .3)), url('../../assets/ourTeamBackground.png'); 
+    background-image: linear-gradient(to right, rgba(4, 43, 85, .9), rgba(4, 43, 85, .3)), url('../../assets/ourTeamBackground.jpg'); 
     background-size: cover;
 }

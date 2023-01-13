@@ -44,13 +44,6 @@ const DisplayImage = () => {
                     </div>
                 </div>
             </div>
-            <div className='section-center'>
-                <div className='content-wrapper'>
-                    <div className='visiting-image'>
-                        <img src={map} className='display-image'></img>
-                    </div>
-                </div>
-            </div>
         </div>
 
     )
